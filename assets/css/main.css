@@ -173,6 +173,13 @@ input, select, textarea {
 	position: relative;
 	perspective: 1000px;
 	transform-style: preserve-3d;
+	/* No select */
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
   
   #slider label {
