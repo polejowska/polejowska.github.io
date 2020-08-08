@@ -30,6 +30,10 @@ a:link {
 	text-decoration: none;
   }
 
+:focus {
+    outline: none !important;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -170,6 +174,7 @@ input, select, textarea {
   }
   
   #slider {
+	margin-top: 100px;
 	height: 35vw;
 	position: relative;
 	perspective: 1000px;
@@ -186,7 +191,7 @@ input, select, textarea {
 	cursor: pointer;
 	transition: transform 0.4s ease;
   }
-  
+ 
   #s1:checked ~ #slide4, #s2:checked ~ #slide5,
   #s3:checked ~ #slide1, #s4:checked ~ #slide2,
   #s5:checked ~ #slide3 {
@@ -1986,32 +1991,8 @@ input, select, textarea {
 				width: auto;
 			}
 
-	.certi {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%;
-		text-align: center;
-		filter: none;
-	}
 
-	img.certi:hover {
-			box-shadow: 0 0 10px 1px rgba(0, 140, 186, 0.5);
-		
-	}
 
-	.website {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%;
-		text-align: center;
-		filter: none;
-	}
-
-	.website:hover {
-		filter: opacity(70%)
-	}
 
 /* Button */
 
@@ -2353,7 +2334,6 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		/* background-image: url("images/bg.png"); */
 		box-shadow: inset 0px 2px 1px 1px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
@@ -2362,6 +2342,9 @@ input, select, textarea {
 		.wrapper.style1 {
 			background-image: none;
 			background-color: #ffff;
+		}
+		.wrapper.style1.certificates {
+			margin-bottom: 350px;
 		}
 
 		.wrapper.style2 {
@@ -2488,6 +2471,8 @@ input, select, textarea {
 		padding: 10em 0 10em 0;
 		text-align: left;
 	}
+
+
 
 		#top .image {
 			border-radius: 100%;
