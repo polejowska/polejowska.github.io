@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title> Computer Systems Agata Polejowska </title>
+		<title> Microprocessors Agata Polejowska </title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -52,64 +52,7 @@
 				
 					</div>
 				</a>
-				<a class='post-link' href='#'>
-					<div class='post-wrap'>
-						<div class='post-image' style='background-image: url("")'>
-					  </div>
-					  <div class='post-body'>
-						<div class='post-body-primary'>
-						  <div class='post-meta'>
-							<p> <b> </b> </p>
-						  </div>
-				
-						  <div class='post-title'>
-							<h2></h2>
-						  </div>
-				
-						  <div class='post-text'>
-							<p></p>
-						  </div>
-						</div>
-				
-						<div class='post-body-secondary'>
-						  <div class='post-category'>
-							<p></p>
-						  </div>
-						</div>
-				
-					  </div>
-				
-					</div>
-				</a>
-			  <a class='post-link' href='#'>
-				<div class='post-wrap'>
-					<div class='post-image' style='background-image: url("")'>
-				  </div>
-				  <div class='post-body'>
-					<div class='post-body-primary'>
-					  <div class='post-meta'>
-						<p> <b> </b> </p>
-					  </div>
-			
-					  <div class='post-title'>
-						<h2></h2>
-					  </div>
-			
-					  <div class='post-text'>
-						<p></p>
-					  </div>
-					</div>
-			
-					<div class='post-body-secondary'>
-					  <div class='post-category'>
-						<p></p>
-					  </div>
-					</div>
-			
-				  </div>
-			
-				</div>
-			</a>
+
 			<a class='post-link' href='#'>
 				<div class='post-wrap'>
 					<div class='post-image' style='background-image: url("")'>
@@ -172,8 +115,36 @@
 			<br>
 			<br>
 			<br>
+
+
 		</article>
 	
+		<article id="work"  class="wrapper style2">
+			<div clas="container">
+				<h3>  The characteristics of the Harvard architecture in microprocessors embedded in microcontrollers </h3>
+				  <p> 
+					<li> 
+						<ul> The use of two separate buses for data and instructions. <br> Thanks to that, during the fetching of arguments from the currently executing 
+							instruction, there is a possibility to simultaneously start fetching the next instruction (pre-fetch). <br> It significantly shortens the instruction cycle 
+							(also known as the fetch-decode-execute cycle). Also it speeds up work of the microprocessor. 
+						</ul>
+						<ul> Separete memory space for the data and for the program. <br> 
+							This entails address ambiguity, since the CPU sees the data and program memory at the same addres. <br>
+							In this case, different instructions for program memory and data memory are used.
+						</ul>
+						<ul>
+							The data bus and the control bus have different width (word length).
+						</ul>
+						<ul>
+							Diffucult data flow from the program memory to the operating memory, which makes it impossible to use one of the basic programming techniques (look-up tables).
+						</ul>
+						<ul>
+							It is not possible to transfer indexed data from ROM to RAM. The only way to embed constants into your program is to hide them in the code, e.g. ADDLW k, MOVLW k. 
+						</ul>
+					</li>
+				</p>
+			</div>
+		</article>
 
 		<!-- Contact -->
 			<article id="contact" class="wrapper style4">
