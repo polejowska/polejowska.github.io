@@ -83,6 +83,15 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Paragraphs */
+.MediMatch {
+	color: #00A0DC;
+}
+
+.MediMatch_d {
+	line-height: 1.25em;
+}
+
 /* Projects cards */
 
 .flipCard {
@@ -544,21 +553,6 @@ input, select, textarea {
 		footer > p {
 			font-size: 1.25em;
 		}
-/* Clock */
-
-#showTime {
-    font-size: 35px;
-    position: relative;
-    font-weight: bold;
-    max-width:300px;
-    margin: 0 auto;
-  background:white;
-  padding:10px;
-  font-family: 'Open Sans', sans-serif;
-  color: black;
-  text-align:center;
-    
-}
 
 
 /* Container */
