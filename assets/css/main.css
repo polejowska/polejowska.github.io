@@ -83,13 +83,20 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Paragraphs */
-.MediMatch {
+.medimatch {
 	color: #00A0DC;
 }
 
-.MediMatch_d {
+.line-d {
 	line-height: 1.25em;
+}
+
+.gsnim {
+	color: #0687b6;
+}
+
+.movjum {
+	color: #38b606;
 }
 
 /* Projects cards */
